@@ -12,7 +12,7 @@ final class APICaller {
     struct Constants {
         static let baseUrl = "https://pro-api.coinmarketcap.com/v1/"
         static let apiKeyHeader = "X-CMC_PRO_API_KEY"
-        static let apiKey = "d63721a4-c2a3-480e-804d-cd499e45cb19"
+        //static let apiKey = ""
         //for global metrics like dominance and market cap
         static let endPointGlobalMetrics = "global-metrics/quotes/latest"
         //for cryptocurrencies
