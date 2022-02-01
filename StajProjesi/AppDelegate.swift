@@ -1,9 +1,6 @@
 //
 //  AppDelegate.swift
 //  StajProjesi
-//
-//  Created by Burkay Atar on 7.12.2021.
-//
 
 import UIKit
 

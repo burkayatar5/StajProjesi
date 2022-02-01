@@ -7,15 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4831C28F2772587F00222A65 /* FilteredCoinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4831C28E2772587F00222A65 /* FilteredCoinViewController.swift */; };
 		48BB817D275FCC6E0051743A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48BB817C275FCC6E0051743A /* AppDelegate.swift */; };
 		48BB817F275FCC6E0051743A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48BB817E275FCC6E0051743A /* SceneDelegate.swift */; };
 		48BB8181275FCC6E0051743A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48BB8180275FCC6E0051743A /* ViewController.swift */; };
 		48BB8184275FCC6E0051743A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48BB8182275FCC6E0051743A /* Main.storyboard */; };
 		48BB8186275FCC6E0051743A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48BB8185275FCC6E0051743A /* Assets.xcassets */; };
 		48BB8189275FCC6E0051743A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48BB8187275FCC6E0051743A /* LaunchScreen.storyboard */; };
+		48BB8193275FCCAD0051743A /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48BB8192275FCCAD0051743A /* APICaller.swift */; };
+		48BB81952760E2B00051743A /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48BB81942760E2B00051743A /* Models.swift */; };
+		48D122862766969600E2D670 /* customCoinTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D122852766969600E2D670 /* customCoinTableViewCell.swift */; };
+		48D122882766D5CC00E2D670 /* UIImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D122872766D5CC00E2D670 /* UIImageViewExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4831C28E2772587F00222A65 /* FilteredCoinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilteredCoinViewController.swift; sourceTree = "<group>"; };
 		48BB8179275FCC6E0051743A /* StajProjesi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StajProjesi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		48BB817C275FCC6E0051743A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		48BB817E275FCC6E0051743A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +30,10 @@
 		48BB8185275FCC6E0051743A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		48BB8188275FCC6E0051743A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		48BB818A275FCC6E0051743A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48BB8192275FCCAD0051743A /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
+		48BB81942760E2B00051743A /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		48D122852766969600E2D670 /* customCoinTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customCoinTableViewCell.swift; sourceTree = "<group>"; };
+		48D122872766D5CC00E2D670 /* UIImageViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageViewExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +69,11 @@
 				48BB817C275FCC6E0051743A /* AppDelegate.swift */,
 				48BB817E275FCC6E0051743A /* SceneDelegate.swift */,
 				48BB8180275FCC6E0051743A /* ViewController.swift */,
+				4831C28E2772587F00222A65 /* FilteredCoinViewController.swift */,
+				48D122872766D5CC00E2D670 /* UIImageViewExtension.swift */,
+				48D122852766969600E2D670 /* customCoinTableViewCell.swift */,
+				48BB8192275FCCAD0051743A /* APICaller.swift */,
+				48BB81942760E2B00051743A /* Models.swift */,
 				48BB8182275FCC6E0051743A /* Main.storyboard */,
 				48BB8185275FCC6E0051743A /* Assets.xcassets */,
 				48BB8187275FCC6E0051743A /* LaunchScreen.storyboard */,
@@ -138,8 +153,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				48BB8181275FCC6E0051743A /* ViewController.swift in Sources */,
+				48D122882766D5CC00E2D670 /* UIImageViewExtension.swift in Sources */,
 				48BB817D275FCC6E0051743A /* AppDelegate.swift in Sources */,
+				48D122862766969600E2D670 /* customCoinTableViewCell.swift in Sources */,
+				4831C28F2772587F00222A65 /* FilteredCoinViewController.swift in Sources */,
 				48BB817F275FCC6E0051743A /* SceneDelegate.swift in Sources */,
+				48BB8193275FCCAD0051743A /* APICaller.swift in Sources */,
+				48BB81952760E2B00051743A /* Models.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
